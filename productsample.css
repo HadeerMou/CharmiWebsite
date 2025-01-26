@@ -52,6 +52,7 @@ a{
 }
 .icon-cart{
     position: relative;
+    cursor: pointer;
 }
 .icon-cart span{
     position: absolute;
