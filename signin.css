@@ -1,0 +1,53 @@
+#acc *{
+    display: block;
+}
+
+#acc h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#acc h2{
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0px 40px 100px 40px;
+}
+
+form-control div .btn{
+    height: 70px;
+    width: 500px;
+    background-color: coral;
+    border-radius: 50px;
+    border: 0cap;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 80px;
+}
+
+#acc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.815);
+    padding: 130px 0px;
+    margin: 0px 30% ;
+    color: white;
+}
+
+#acc form p{
+    font-size: 20px;
+}
+
+#user, #pass{
+    width: 400px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+#acc form label, #user, #pass{
+    margin-left: 40px;
+}
+
+

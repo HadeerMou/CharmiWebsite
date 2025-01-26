@@ -1,0 +1,91 @@
+body{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  @media(max-width:700){
+    .logo{
+        width: 10px;
+    }
+    .mainlinks i{
+        font-size: 15px;
+    }
+    svg{
+        width: 15px;
+    }
+  }
+  .entry{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #fu{
+    font-weight: bold;
+  }
+  .bottom{
+    margin-left: 10%;
+  }
+  .reach{
+    margin-top: 3%;
+  }
+  .reach *{
+    display: inline;
+    margin-right: 10px;
+    font-size: large;
+  }
+  .reach a{
+    text-decoration: underline;
+  }
+  .contact {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+  }
+  button {
+    margin-top: 2rem;
+    padding: 18px 30px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #5e5e5e;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #e2e0ca85;
+    color: #000;
+    transition: all 1s ease;
+  }
+  .comment{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 50px 0px;
+  }
+  #cm{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px;
+  }
+  #Sendbtn{
+    border-radius: 8px;
+    padding: 15px 30px;
+    background-color: rgb(206, 20, 20);
+    border:rgb(133, 30, 30) solid;
+  }
+
+  @media (max-width: 800px) {
+    #contact_form {
+      width: 80vw;
+    }
+    .img {
+      display: none;
+    }
+  }

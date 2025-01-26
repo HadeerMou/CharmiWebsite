@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" white wardrobe",
+        "price": 2000,
+        "image": "../assets/white wardrobe.jpeg"
+    },
+    {
+        "id": 2,
+        "name":" LD02 LOUNGE CHAIR",
+        "price": 250,
+        "image": "../assets/Generic Luxury Minimalist Lounge Sofa – Modern….jpeg"
+    },
+    {
+        "id": 3,
+        "name":" LD03 LOUNGE CHAIR",
+        "price": 290,
+        "image": "../assets/3cb6101e-b0fb-4799-9ccb-21c0a75ec4e4.jpeg"
+    },
+    {
+        "id": 4,
+        "name":" LD04 LOUNGE CHAIR",
+        "price": 200,
+        "image": "../assets/3cb6101e-b0fb-4799-9ccb-21c0a75ec4e4.jpeg"
+    },
+    {
+        "id": 5,
+        "name":" LD05 LOUNGE CHAIR",
+        "price": 300,
+        "image": "../assets/3cb6101e-b0fb-4799-9ccb-21c0a75ec4e4.jpeg"
+    },
+    {
+        "id": 6,
+        "name":" LD06 LOUNGE CHAIR",
+        "price": 200,
+        "image": "../assets/3cb6101e-b0fb-4799-9ccb-21c0a75ec4e4.jpeg"
+    },
+    {
+        "id": 7,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "../assets/3cb6101e-b0fb-4799-9ccb-21c0a75ec4e4.jpeg"
+    },
+    {
+        "id": 8,
+        "name":" LD08 LOUNGE CHAIR",
+        "price": 200,
+        "image": "../assets/3cb6101e-b0fb-4799-9ccb-21c0a75ec4e4.jpeg"
+    }
+
+]
