@@ -40,8 +40,8 @@ a{
     cursor: pointer;
 }
 /*body*/
+/*grid*/
 .headcontainer{
-
   width: 90%;
   margin: auto;
   padding: 40px 0;
@@ -69,7 +69,6 @@ a{
     flex-direction: column;
   }
 }
-
 .box{
   max-width: 90%;
   will-change: filter;
@@ -80,122 +79,64 @@ a{
 .box:hover {
   filter: drop-shadow(0 0 2em #666666aa);
 }
-
+/*main body */
 .title{
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 4rem;
 
 }
-.card img{
-  width: 100%;
-    height: 15vw;
-    object-fit: cover;
-}
-
 .DesignTitle {
+  font-weight: bold;
   font-size: 50px;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 .sc1{
-  background-color: rgba(247, 247, 247, 0.479);
+  background-color: rgba(247, 247, 247, 0.774);
   padding: 10px;
   margin-top: 130px;
-}
-.web-development{
-  width: 100%;
-  margin-top: 10%;
-  letter-spacing: 1px;
 }
 .row{
   margin-top: 30px;
 }
-.product-top img{
+.webs{
   width: 100%;
-}
-.overlay{
-  display: block;
-  opacity: 0;
-  top: 10%;
-  margin-left: 0;
-  width: 70px;
-}
-.product-top :hover .overlay{
-  opacity: 1;
-  margin-left: 5%;
-  transition: 0.5s;
-}
-.overlay .bi{
-  cursor: pointer;
-  background-color: #555;
-  color: #000;
-  height: 35px;
-  width: 35px;
-  font-size: 20px;
-  padding: 7px;
-  margin: 5%;
-  margin-bottom: 5%;
-}
-.overlay .btn-secondary{
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-  
-.webs {
+  height: auto;
   display: flex;
-  justify-content: center;
-
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 10px;
 }
 .webs a {
   text-decoration: none;
 }
-  
 .web {
-  width: 420px;
-  height: 250px;
-  margin: 10px;
-  box-shadow: #ffffff;
+  width: 450px;
+  height: 720px;
+  box-shadow: #636161;
 }
-.img{
-  margin-bottom: 15px;
-  background-size: cover;
-  background-image: url('assets/18\ Nightstands\ and\ Bedside\ Tables\ With\ Serious\ Personality.jpeg');
-  height: 350px;
-  align-items: center;
-}
-.web h4,
-.web p {
-  position: relative;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  transition: 0.6s;
-  margin-left: 9px;
+.web img{
+  height: 550px;
 }
 
 .web h4 {
   color: black;
-  text-align: center;
   line-height: 35px;
   font-size: 40px;
+  font-weight: bold;
   margin-bottom: 20px;
-  text-decoration: none;
 }
 .web p {
   color: grey;
   margin-left: 13px;
   font-size: 20px;
   font-weight: bold;
-  max-width: 350px;
+  max-width: 100%;
   line-height: 22px;
 }
-
 .web > * {
   transform: translateY(25px);
   transition: transform 0.6s;
@@ -204,7 +145,7 @@ a{
   transform: translateY(0px);
 }
 .web img {
-  max-height: 650px;
+  max-height: 80%;
   width: 100%;
   padding: 3px;
   margin: auto;
@@ -212,27 +153,26 @@ a{
   position: relative;
   cursor: pointer;
 }
-.head{
-  display: flex;
-  padding: 30PX;
-}
-.sub img{
-  width: 33pc;
-  margin-left: 20PX;
-  position: relative; 
-}
-.first{
-  margin-bottom: 10px;
-}
-.fir{
-  margin-bottom: 10px;
+.more{
+  padding-right: 20px;
+  padding-bottom: 100px;
 }
 .more a{
   align-items: center;
   display: flex;
-  font-size: 18px;
+  flex-direction: row;
   float: right;
   color: #00000096;
+  text-decoration: none;
+}
+.more i{
+  font-size: 40px;
+}
+.more h3{
+  margin-top: 5px;
+  font-size: 23px;
+  font-weight: bold;
+  margin-right: 8px;
 }
 .arrow{
   font-size: 40px;
@@ -308,20 +248,6 @@ body.showCart .container{
 .listCart::-webkit-scrollbar{
   width: 0;
 }
-.mainlink span{
-  position: absolute;
-  background-color: red;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  color: #fff;
-  top: 7%;
-  right: 10px;
-}
-
 body.showCart body{
   right: 0;
 }

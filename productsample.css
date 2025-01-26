@@ -40,7 +40,7 @@ a{
     padding-top: 10px;
     transition: transform .5s;
 }
-svg{
+.icon-cart svg{
     width: 26px;
     margin-top: 6px;
 }

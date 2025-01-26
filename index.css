@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 .logo {
     height: 7pc;
     will-change: filter;
@@ -173,7 +176,6 @@ a{
     font-size: 50px;
     padding: 30px;
 }
-
 .DesignTitle {
   font-size: 50px;
   text-align: center;
@@ -186,20 +188,21 @@ a{
   padding: 10px;
   margin-top: 130px;
 }
-  
 .webs {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 25%;
-  overflow-x: auto; /*scorable bar*/
-  overscroll-behavior-inline: contain;
+  width: 100%;
+  height: auto;
+  display: flex;
   overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .webs a {
   text-decoration: none;
 }
-  
 .web {
+  width: 400px;
+  height: 520px;
   display: grid;
   grid-template-rows: min-content;
   padding: 2px;
